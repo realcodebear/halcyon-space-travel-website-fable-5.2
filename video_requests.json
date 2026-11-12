@@ -1,0 +1,29 @@
+{
+  "note": "Videos 2 and 3 of 3 for the HALCYON landing page. Run each exactly as written, same way as the hero request. Paths are relative to this folder.",
+  "requests": [
+    {
+      "id": "cupola",
+      "model": "seedance_2_5",
+      "mode": "omni_reference",
+      "start_image_path": "assets/source/cupola.png",
+      "aspect_ratio": "16:9",
+      "duration": 10,
+      "resolution": "1080p",
+      "generate_audio": false,
+      "output_path": "assets/video/cupola_seedance_raw.mp4",
+      "prompt": "Use the start image as the exact first frame and keep its composition. Locked-off camera inside the observation lounge: no shake, no zoom, no pan, no cuts. Through the large cupola window the Earth drifts slowly and steadily from the horizon down toward the bottom of the window, clouds and ocean sliding past as the station orbits; the thin blue limb stays sharp against black space. The warm patches of sunlight on the walls and seating creep very slowly across the room. The guest in ivory loungewear floats almost perfectly still at the handrail, with only the faintest weightless sway of hair and fabric. The two brass lamps glow steadily. Real-time, calm, silent, weightless. Photorealistic, the same colour grade, light and fine film grain as the image. No new objects or people, no text, no flicker, no morphing of the window frames."
+    },
+    {
+      "id": "spa",
+      "model": "seedance_2_5",
+      "mode": "omni_reference",
+      "start_image_path": "assets/source/spa.png",
+      "aspect_ratio": "16:9",
+      "duration": 8,
+      "resolution": "1080p",
+      "generate_audio": false,
+      "output_path": "assets/video/spa_seedance_raw.mp4",
+      "prompt": "Use the start image as the exact first frame and keep its composition. Locked-off camera, perfectly symmetrical: no shake, no zoom, no pan, no cuts. In the centre of the room the floating sphere of clear water wobbles very slowly in weightlessness: its surface bulges and ripples gently like slow liquid glass, the upside-down image of the Earth refracted inside it stretching and settling, a bright gold rim of sunlight sliding around its edge. It stays in the centre of the frame and stays one single sphere. Fine warm mist drifts slowly through the shafts of sunlight. Through the round window behind it the Earth drifts slowly downward. Everything else is still. Real-time, calm, silent. Photorealistic, the same colour grade, light and fine film grain as the image. No people, no new objects, no splashing, no droplets breaking away, no text, no flicker."
+    }
+  ]
+}
